@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>WEB700 HTML Demo</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+   
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Meet Mangukiya</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="/about">About</a></li>
+                <li class="nav-item active"><a class="nav-link" href="/htmlDemo">HTML Demo</a></li>
+            </ul>
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="/students">Students</a></li>
+                <li class="nav-item"><a class="nav-link" href="/tas">Teaching Assistants</a></li>
+                <li class="nav-item"><a class="nav-link" href="/courses">Courses</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <main class="col-md-12">
+
+
+                <header>
+                    <h1>HTML5 Demo</h1>
+                </header>
+
+                <section id="intro">
+                    <p>Welcome to the HTML5 demo section. Here, we showcase some of the powerful features and elements introduced in HTML5.</p>
+                </section>
+
+                <head>
+                    <meta charset="UTF-8">
+                    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                    <title>Tables Section</title>
+                    <style>
+                        table {
+                            width: 100%;
+                            border-collapse: collapse;
+                            margin-bottom: 20px;
+                        }
+                        th, td {
+                            border: 1px solid #000;
+                            padding: 8px;
+                            text-align: center;
+                        }
+                        caption {
+                            font-weight: bold;
+                            font-size: 1.2em;
+                            margin-bottom: 5px;
+                        }
+                    </style>
+                </head>
+                <body>
+                
+                <section>
+                    <h2>Fruit Nutritional Information</h2>
+                
+                    <table>
+                        <caption>Vitamin Content in Fruits</caption>
+                        <thead>
+                            <tr>
+                                <th>Fruit</th>
+                                <th>Vitamin C (mg)</th>
+                                <th>Vitamin A (IU)</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Apple</td>
+                                <td>5</td>
+                                <td>98</td>
+                            </tr>
+                            <tr>
+                                <td>Banana</td>
+                                <td>8.7</td>
+                                <td>76</td>
+                            </tr>
+                            <tr>
+                                <td rowspan="2">Orange</td>
+                                <td>53.2</td>
+                                <td rowspan="2">225</td>
+                            </tr>
+                            <tr>
+                                <td>70</td>
+                            </tr>
+                        </tbody>
+                        <tfoot>
+                            <tr>
+                                <td colspan="3">Values per 100g of fruit</td>
+                            </tr>
+                        </tfoot>
+                    </table>
+                
+                    <table>
+                        <caption>Mineral Content in Fruits</caption>
+                        <thead>
+                            <tr>
+                                <th>Fruit</th>
+                                <th>Potassium (mg)</th>
+                                <th>Magnesium (mg)</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Apple</td>
+                                <td>107</td>
+                                <td>5</td>
+                            </tr>
+                            <tr>
+                                <td>Banana</td>
+                                <td>358</td>
+                                <td>27</td>
+                            </tr>
+                            <tr>
+                                <td>Orange</td>
+                                <td colspan="2">166</td>
+                            </tr>
+                        </tbody>
+                        <tfoot>
+                            <tr>
+                                <td colspan="3">Values per 100g of fruit</td>
+                            </tr>
+                        </tfoot>
+                    </table>
+                
+                    <p>
+                        The above table shows data regarding the vitamin and mineral composition of different fruits.
+                        The quantities of vitamins C and A are listed in the first table, while the amounts of potassium and magnesium are listed in the second table. 
+                        Each fruit is valued at 100 grams.
+                </section>
+
+               
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lists Section</title>
+    <style>
+        ul, ol {
+            padding-left: 20px;
+        }
+        li {
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+
+<section>
+    <h2>Famous Programming Languages</h2>
+
+    <ol>
+        <li>Python
+            <ul>
+                <li>Web Development</li>
+                <li>Data Science</li>
+                <li>Machine Learning</li>
+            </ul>
+        </li>
+        <li>JavaScript</li>
+        <li>Java</li>
+        <li>C++</li>
+        <li>Ruby</li>
+    </ol>
+
+    <p>
+        Some of the most widely used programming languages available today are included in the list above. 
+        Python is especially adaptable, having uses in data science, machine learning, web development, and more.
+        Moreover, Ruby, C++, JavaScript, and Java are frequently utilized in many software development fields.
+
+    </p>
+</section>
+
+
+
+                
+               <section id="image-section">
+                    <h2>Image Example</h2>
+                    <p>Below is an example of an image embedded in the HTML:</p>
+            
+                    <img src="https://wallpapers.com/images/high/hanuman-ji-hd-meditation-rzyhiajsc0q7kwwl.webp" alt="Mahadev">
+                    <p>The img tag is used to embed an image in an HTML page.
+
+                        Images are not technically inserted into a web page; images are linked to web pages. The <img> tag creates a holding space for the referenced image.
+                        
+                        The <img> tag has two required attributes:
+                        
+                        src - Specifies the path to the image
+                        alt - Specifies an alternate text for the image, if the image for some reason cannot be displayed</p>
+                </section>
+   
+
+
+        
+                <section class="audio-section">
+                    <h2>Sample demo Audio clip</h2>
+                
+                    <audio controls>
+                        <source src="https://pat-crawford-sdds.netlify.app/shared/fall-2021/web700/A3/sample-audio.mp3" type="audio/mpeg">
+                        <source src="https://pat-crawford-sdds.netlify.app/shared/fall-2021/web700/A3/sample-audio.ogg" type="audio/ogg">
+                        Your browser does not support the audio element.
+                    </audio>
+                
+                    <p>
+                        An example audio clip can be found in the audio player above. 
+                        The controls that are provided allow you to listen to the clip. 
+                        he use of HTML5 audio elements to embed audio content directly into a web page is demonstrated in this section. 
+                        Multiple audio formats are supported for improved compatibility.
+
+                    </p>
+                </section>
+            
+
+
+                <section class="video-section">
+                    <h2>Sample Video Clip</h2>
+                
+                    <video controls width="600">
+                        <source src="https://pat-crawford-sdds.netlify.app/shared/fall-2021/web700/A3/sample-video.mp4" type="video/mp4">
+                        <source src="https://pat-crawford-sdds.netlify.app/shared/fall-2021/web700/A3/sample-video.ogg" type="video/ogg">
+                        <source src="https://pat-crawford-sdds.netlify.app/shared/fall-2021/web700/A3/sample-video.webm" type="video/webm">
+                        Your browser does not support the video tag.
+                    </video>
+                
+                    <p>
+                        A sample video clip is shown in the video player above. The controls that are provided allow you to watch the video.
+                         Using HTML5 video elements, which allow several video codecs for improved browser compatibility, 
+                         video material can be embedded directly into a web page as demonstrated in this section.
+
+                    </p>
+                </section>
+
+          
+
+            </main>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
